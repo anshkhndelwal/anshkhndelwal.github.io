@@ -9,7 +9,7 @@
     <title>Diffusion-Guided Reconstruction of Everyday Hand-Object Interaction Clips</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./template/offcanvas.css">
-<!-- 
+
     <div class="btn-group" role="group" aria-label="Top menu">
         <a class="btn btn-primary" href="#method_overview" target='_self'>Method Overview</a>
         <a class="btn btn-primary" href='#baseline' target='_self'>Baseline Comparison</a>
@@ -19,7 +19,7 @@
         <a class="btn btn-primary" href='#in_the_wild' target='_self'>In the Wild</a>
     </div> -->
 <style type="text/css">/* Copyright 2014-present Evernote Corporation. All rights reserved. */
-@keyframes caretBlink {
+/* @keyframes caretBlink {
     from { opacity: 1.0; }
     to { opacity: 0.0; }
 }
@@ -401,7 +401,8 @@ Although we observe the relative pose between hand and object does not change to
 <script src="./template/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="./template/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-
+-->
 
 </div></div></body></html>
- -->
+
+ --> */
