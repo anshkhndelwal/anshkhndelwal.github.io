@@ -33,7 +33,7 @@
 
 			<p>
 				At CMU, I’m currently collaborating with <a href="https://cohere.com/" target="=_blank">Cohere</a> as a Research Assistant, 
-				working on <strong>LLM agents and error recovery strategies</strong> with <a href="https://www.phontron.com/">Proj Graham Neubig</a>. 
+				working on <strong>LLM agents and error recovery strategies</strong> with <a href="https://www.phontron.com/">Prof Graham Neubig</a>. 
 				I’m also working on prompt optimization with BNY.
 			</p>
 			<p>
@@ -296,19 +296,6 @@ improvement in forecast precision. <br>
 	<span class='heading'><strong><font size='4'>Course projects</strong></span>
 		<table align='center' border='0' cellpadding='20' width='100%'>
 		<tbody>
-			<tr>
-				<td width='20%'><img src='index_files/conway.gif' alt='conway' style='border-style: none' height='110' width='150'></td>
-				<td valign='top' width='85%'>
-				<p><span class='heading'><b>Conway's Game of Life</b></span><br />
-				<i>Poorvi Hebbar*, <a href="https://www.cse.iitb.ac.in/~nikhilramolla/_site/more.html">Nikhil Reddy Ramolla</a>*</i><br />
-				Course: Abstractions and Paradigms for Programming (<a href="https://www.cse.iitb.ac.in/~as/">Prof. Amitabh Singhal</a>), Spring 2018, IIT Bombay
-				<p>
-					Conway-racket is a Conway's game of life implementation on racket (no, not 🎾). We made a simulator with a grid which can be set for multiple sizes, grids and topologies and which uses many preloadeable scripts to run it. In other words, we programmed a cellular automaton and used the simulator on files encoded with Run-Length-Encoding.
-				</p>
-				<a href='index_files/reports_repository/conway.pdf' target='_blank'>report</a> | 		
-				<a href='https://github.com/poorvirhebbar/conway-s_game_of_life' target='_blank'>code</a>
-				</td>
-			</tr>
 	
 			<tr>
 				<td width='20%'><img src='index_files/conway.gif' alt='nlp_rag' style='border-style: none' height='110' width='150'></td>
@@ -316,8 +303,11 @@ improvement in forecast precision. <br>
 				<p><span class='heading'><b>End-To-End Large NLP System Building with RAG</b></span><br />
 				<i>January 2024 - April 2024</i><br />
 				<p>
-					Designed an NLP system for QA with advanced retrieval-augmented generation (RAG), creating a baseline model using FlanT5 with LangChain and a FAISS database, resulting in an 8s inference speed on a local device.
-				</p>
+					Designed an NLP system for QA with advanced retrieval-augmented generation (RAG), creating a baseline model using FlanT5 with
+					LangChain and a FAISS database, resulting in an 8s inference speed on a local device.
+					Built a Chroma database with HuggingFace UAE-Large embeddings for document retrieval and utilized a quantized Llama-2-7b
+					model with Ollama, improving ROUGE scores by 60% over baseline.				</p>
+					<a href='index_files/reports_repository/ANLP_H2.pdf' target='_blank'>report</a>
 				</td>
 			</tr>
 	
@@ -327,9 +317,12 @@ improvement in forecast precision. <br>
 				<p><span class='heading'><b>Enhancing Numerical Reasoning of LLMs</b></span><br />
 				<i>January 2024 - April 2024</i><br />
 				<p>
-					Upgraded Llama2-7b performance on GSM8K dataset with a novel number encoding scheme, retrieval-augmented few-shot prompting, and Chain-of-Thought, enhancing baseline accuracy by 3.5%.
-				</p>
+					Upgraded Llama2-7b performance on GSM8K dataset with a novel number encoding scheme, retrieval augmented few-shot
+					prompting, and Chain-of-Thought, enhancing baseline accuracy by 3.5%.
+					Fine-tuned Llama2-7b leveraging AWS SageMaker Studio, incorporated a self-consistency step to estimate answer confidence.				</p>
+					<a href='index_files/reports_repository/ANLP_H4.pdf' target='_blank'>report</a>
 				</td>
+
 			</tr>
 	
 			<tr>
@@ -338,8 +331,12 @@ improvement in forecast precision. <br>
 				<p><span class='heading'><b>MLOps for Movie Recommendation System</b></span><br />
 				<i>January 2024 - April 2024</i><br />
 				<p>
-					Implemented a movie recommendation system serving 1 million simulated customers using Content-based Filtering.
+					A scalable movie recommendation system serving 1M+ pseudo users in a fully simulated environment, complete with load balancing, auto scaling, system and model monitoring, and evaluation. Top in class for highest average user ratings of recommended movies. Containerized with Docker to ensure scalability and 99% uptime through load balancing and automated retraining with Jenkins.
+					Utilized MLflow for model versioning and set up real-time monitoring and metrics tracking with Prometheus and Grafana.
+
+
 				</p>
+				<a href='https://docs.google.com/presentation/d/1R9COpOl6K9K7to4myasln-y_L_l2-ug2gGuHQ1ff3PA/edit#slide=id.g2588e2c6693_0_13' target='_blank'>report</a>
 				</td>
 			</tr>
 	
@@ -349,8 +346,9 @@ improvement in forecast precision. <br>
 				<p><span class='heading'><b>Enabling LLMs as Intelligent Agents</b></span><br />
 				<i>January 2024 - April 2024</i><br />
 				<p>
-					Developed an AI agent system using Llama 2 models for complex tasks in OS and database environments, including bash commands and SQL queries.
+					Used Llama 2 to build a general purpose agent for various tasks from OS to Knowledge Graph environments. Instruction tuning combineed with tree-of-thought sampling on a mixture of environment interaction trajectories and ShareGPT text.
 				</p>
+				<a href='index_files/reports_repository/Enabling Large Language Models as Intelligent Agents.pdf' target='_blank'>report</a>
 				</td>
 			</tr>
 	
@@ -360,15 +358,17 @@ improvement in forecast precision. <br>
 				<p><span class='heading'><b>Multimodal Interaction in Memes</b></span><br />
 				<i>January 2024 - April 2024</i><br />
 				<p>
+					Analyzing vision-language interactions in memes and improving multimodal model performances on sentiment classification, caption generation and question-answering.
 					Created a meme caption generation pipeline by fine-tuning InstructBLIP, MiniGPT4, and Facebook MMBT as baselines.
 				</p>
+				<a href='index_files/reports_repository/Enhancing Multi-Modal Interactions in Memes for Downstream Tasks.pdf' target='_blank'>report</a>
 				</td>
 			</tr>
 		</tbody>
 		</table>
 
 		
-		
+
 
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
